@@ -1,0 +1,40 @@
+
+html{
+    background: black;
+    cursor: none;
+}
+h1{
+    text-align: center;
+    font-family: "Lobster Two";
+    font-size: 50px;
+    color: white;
+    text-shadow: darkgrey 0px 0px 30px;
+    padding: 2%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+#rubiks_img{
+    filter: drop-shadow(0 0 1rem darkgrey);
+    box-sizing: content-box;
+    border-radius: 18px;
+    opacity: max(0.8);
+
+}
+
+.cursor {
+    position: fixed;
+    width: 20px; /* Set the size of the custom cursor */
+    height: 20px;
+    background: rgba(255, 255, 255, 0.5); /* White with slight transparency */
+    border-radius: 50%; /* Make it circular */
+    pointer-events: none; /* Ensure it doesn't interfere with other elements */
+    transition: background 0.6s; /* Smooth background transition */
+}
+
